@@ -1,1 +1,1 @@
-console.log('Hola');
+export { DatabaseService } from './dao/database-service';
