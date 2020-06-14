@@ -1,6 +1,6 @@
 {
   "name": "@piros/gv-server-commons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -26,9 +26,11 @@
   },
   "dependencies": {
     "@piros/ioc": "0.0.5",
+    "@piros/tssf": "0.0.19",
     "@types/node": "^13.13.5",
     "pg": "^8.2.1",
     "rxjs": "^6.5.5",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "uuid": "^8.1.0"
   }
 }
